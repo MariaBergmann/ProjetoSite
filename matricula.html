@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula - Sistema de Matrículas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="matricula.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>Matrícula</h1>
+        <button class="btn btn-primary">MATRICULE-SE</button> 
+        <form id="matriculaForm"> 
+            <div class="form-group">
+                <label for="nomeAluno">Nome do Aluno:</label>
+                <input type="text" class="form-control" id="nomeAluno">
+            </div>
+            <div class="form-group">
+                <label for="turma">Turma:</label>
+                <select class="form-control" id="turma">
+                    <option value="">Selecione uma turma</option>
+                    <option value="turma1">Turma 1 - Segunda-feira (manhã)</option>
+                    <option value="turma2">Turma 2 - Terça-feira (tarde)</option>
+                    <option value="turma3">Turma 3 - Quarta-feira (noite)</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Matricular</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script> 
+</body>
+</html>
+
+
+
