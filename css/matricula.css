@@ -1,20 +1,20 @@
 body {
-    background-color: #000;
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: #000000;
 }
 
 .form-control {
-    background-color: rgb(131, 27, 23);
+    background-color: #0935c7;
     color: #fff;
     border-color: rgb(236, 224, 224);
 }
 
 .btn-primary {
-    background-color: rgb(131, 27, 23);
+    background-color: #0935c7;
     border-color: rgb(131, 27, 23);
 }
 
 .btn-primary:hover {
-    background-color: #6f1512;
-    border-color: #6f1512;
+    background-color: hsla(0, 96%, 45%, 0.918);
+    border-color: hsl(0, 100%, 1%);
 }

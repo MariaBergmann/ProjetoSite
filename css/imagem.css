@@ -1,0 +1,16 @@
+body {
+    background-image: url('https://thumbs.dreamstime.com/b/group-professionals-working-together-office-my-team-pretty-female-person-holding-blue-folder-keeping-smile-her-face-102014217.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}

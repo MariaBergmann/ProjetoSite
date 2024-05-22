@@ -7,32 +7,50 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gotham:wght@400;700&display=swap">
 
-
     <style>
         body {
-            background-color: #000;
-            color: #fff;
+            background-image: url(https://i.pinimg.com/736x/bc/4e/a0/bc4ea0c9e18696c3575c547d64c20042.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #26348C;
             margin: 0;
             padding: 0;
             overflow-x: hidden;
+            position: relative;
+        }
+
+        .slogan {
+            font-family: 'Gotham', sans-serif;
+            font-size: 20px;
+            margin-top: 15px;
+            height: auto;
+            font-weight: bold;
+            color: #f5f6f8;
         }
 
         .container {
             padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
         }
 
         .faculdade-name {
             font-family: 'Gotham', sans-serif;
-            color: rgb(131, 27, 23);
+            color: #26348C;
             font-size: 45px;
             font-weight: bold;
-            margin-top: 20px;
+            margin-top: 15px;
         }
 
         .presentation-text {
-            font-size: 15px;
-            margin-top: 10px;
-            margin-bottom: 20px;
+            font-family: "Gotham", sans-serif;
+            font-size: 18px;
+            margin-top: 20px;
+            height: auto;
+            font-weight: bold;
+            color: #f5f6f8;
         }
 
         .buttons-container {
@@ -42,21 +60,17 @@
 
         .btn {
             margin-left: 10px;
-            background-color: rgb(131, 27, 23);
+            background-color: #26348C;
+            color: white;
         }
 
-        .image-container {
-            margin-top: 20px;
-            height: 100%;
-            overflow-y: auto;
-        }
+        
 
         .image-container img {
             max-width: 100%;
             height: auto;
             display: block;
             margin: 0 auto;
-            max-height: 300px; /* Altura máxima das imagens */
         }
 
         .image-description-container {
@@ -64,12 +78,16 @@
         }
 
         .image-description {
+            font-family: Arial, sans-serif;
             margin-top: 10px;
             height: auto;
+            font-weight: bold;
+            color: #fdfdfd;
         }
     </style>
 </head>
 <body> 
+    
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -112,4 +130,3 @@
     <script src="js/firebase.js"></script>
 </body>
 </html>
-

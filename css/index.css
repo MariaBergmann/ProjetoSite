@@ -1,42 +1,23 @@
-
-body {
-    font-family: Arial, sans-serif;
+.image-container {
+    margin-top: 20px;
+    height: 100%;
+    overflow-y: auto; /* Habilita a barra de rolagem apenas na direção vertical */
 }
 
-.container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+/* Estilos para a barra de rolagem */
+.image-container::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
 }
 
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
+.image-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo da barra de rolagem */
 }
 
-.form-group {
-    margin-bottom: 20px;
+.image-container::-webkit-scrollbar-thumb {
+    background: #888; /* Cor do indicador de rolagem */
+    border-radius: 6px; /* Borda arredondada do indicador de rolagem */
 }
 
-label {
-    font-weight: bold;
-}
-
-.btn {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background-color: #0056b3;
+.image-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor do indicador de rolagem ao passar o mouse */
 }
